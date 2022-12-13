@@ -1,13 +1,7 @@
 QR Code Generator
 ========================
 
-![qrcode](qrcode.png)
 
-Simple app to generate QR codes using the qrious javascript library.  
-
-This app is up and running at: [https://qrcode.surge.sh](https://qrcode.surge.sh)
-
-Or you can run it locally:
 
 ## Install NVM
 ```
@@ -20,6 +14,11 @@ source ~/.bashrc
 ```
 nvm install v4.9.1
 nvm use v4.9.1
+```
+
+python2 needed
+```
+sudo apt install python2
 ```
 
 ## Build it
