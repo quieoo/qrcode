@@ -23,7 +23,7 @@
 
     <div class="mdl-layout__tab-bar-container">
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark mdl-js-ripple-effect--ignore-events">
-        <span class="mdl-layout__tab is-active" style="color: white; text-transform: none;">QR code generator.</span>
+        <span class="mdl-layout__tab is-active" style="color: white; text-transform: none;">二维码生成器</span>
       </div>
     </div>
 
@@ -32,11 +32,10 @@
     <div class="mdl-card mdl-shadow--2dp roundbox" style="padding: 8px; margin: auto; margin-top: 10px;">
 
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <div><input class="mdl-textfield__input" type="text" id="textInput"></div>
-
+        <div><input class="mdl-textfield__input" type="text" id="textInput" placeholder="请输入二进制编码"></div>
       </div>
       <div><button class="mybutton mdl-button mdl-button--raised mdl-button--colored" id="genBtn">
-        Generate
+        生成
       </button></div>
       <br><br>
       <div id="outputDiv"></div>
@@ -44,7 +43,7 @@
     <br>
     <div>
       <br>
-      <a href="https://github.com/monteslu/qrcode" target="_blank">Source on github</a>
+      <a href="https://github.com/quieoo/qrcode" target="_blank">Source on github</a>
     </div>
 
     <script src="main.bundle.js"></script>
