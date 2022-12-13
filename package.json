@@ -4,7 +4,7 @@
   "description": "qrcode js web app",
   "scripts": {
     "build": "webpack",
-    "start": "ecstatic --port 3011"
+    "start": "ecstatic --port 3014"
   },
   "repository": {
     "type": "git",
