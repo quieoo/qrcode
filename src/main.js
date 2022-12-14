@@ -27,7 +27,7 @@ function generateQR(input) {
     var ascii=String.fromCharCode(strvalue)
     ascii_str+=ascii
   }
-  tDiv.innerHTML+='ASCII: '+ascii_str
+  // tDiv.innerHTML+='ASCII: '+ascii_str
   var canvas = document.createElement('canvas');
 
   var qr = new QRious({
